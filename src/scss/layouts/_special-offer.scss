@@ -1,0 +1,116 @@
+.introducing-section {
+  margin-top: 2.5rem;
+}
+
+.introducing-title {
+  text-align: center;
+  font-family: $heading-family;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  letter-spacing: 0.490625rem;
+  text-shadow: 0 0 12px rgba($white, 0.5);
+}
+
+.introducing-description {
+  margin-top: 2.875rem;
+  text-align: center;
+  line-height: 1.25rem;
+  letter-spacing: 0.0625em;
+}
+
+.special-price-section {
+  background-image: linear-gradient($black 25%, transparent, $black),
+    url('/images/background-2.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.special-price-title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+}
+
+.special-price-countdown {
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: center;
+  font-family: $heading-family;
+  text-align: center;
+
+  > * + * {
+    margin-left: 1.5rem;
+  }
+
+  time,
+  span {
+    display: block;
+  }
+}
+
+.countdown-time,
+.countdown-colon {
+  font-size: 3.125rem;
+  font-weight: 600;
+  line-height: 4.25rem;
+}
+
+.countdown-text {
+  font-family: $body-family;
+  margin-top: 1.25rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.0625em;
+}
+
+.order-now-button {
+  margin-top: 2.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  border-radius: 9999px;
+  background-color: #f7b500;
+  padding: 1rem 3.75rem;
+  font-family: $heading-family;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  color: $black;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.symbols-container {
+  margin-top: 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > * + * {
+    margin-left: 5rem;
+  }
+}
+
+.tour-title {
+  margin-top: 3.5rem;
+  font-weight: 600;
+  font-family: $heading-family;
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.125rem;
+  text-shadow: 0 0 12px rgba($white, 0.5);
+  letter-spacing: 0.3125em;
+}
+
+.tour-description {
+  margin-top: 3.125rem;
+  text-align: center;
+  line-height: 1.25rem;
+  letter-spacing: 0.0625em;
+}
