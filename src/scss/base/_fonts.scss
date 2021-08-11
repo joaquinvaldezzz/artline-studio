@@ -1,0 +1,17 @@
+@font-face {
+  font-style: normal;
+  font-family: 'Cormorant SC';
+  font-weight: 600;
+  src: url('/fonts/CormorantSC-SemiBold.woff2') format('woff2'),
+    url('/fonts/CormorantSC-SemiBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-style: normal;
+  font-family: 'Gilroy';
+  font-weight: 400;
+  src: url('/fonts/subset-Gilroy-Regular.woff2') format('woff2'),
+    url('/fonts/subset-Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+}
