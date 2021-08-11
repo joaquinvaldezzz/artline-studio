@@ -1,0 +1,89 @@
+.home-section {
+  background-image: linear-gradient(transparent, $black 50%), url('/images/background.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 8rem;
+
+  @media (min-width: $lg) {
+    background-size: contain;
+  }
+}
+
+.object {
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  width: 5.375rem;
+}
+
+.novel-author {
+  margin-top: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: calc(100% - 0.5em * 2);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+
+  @media (min-width: $lg) {
+    line-height: 3.125rem;
+  }
+}
+
+.novel-title {
+  margin-top: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: calc(100% - 4.375rem * 2);
+  text-align: center;
+  font-family: $heading-family;
+  font-weight: 600;
+  font-size: 4.125rem;
+  text-transform: uppercase;
+  line-height: 5rem;
+  letter-spacing: 4.375rem;
+  text-shadow: 0 0 12px $white;
+}
+
+.novel-description {
+  margin-top: 1.75rem;
+  text-align: center;
+  line-height: 1.25rem;
+  letter-spacing: 0.0625em;
+}
+
+.mistborn-box {
+  margin-top: 5rem;
+  max-width: calc(10 / 12 * 100%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signature {
+  position: relative;
+  margin-top: calc(4.375rem / 2);
+}
+
+.signature-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: auto;
+  width: 11.125rem;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+.signature-text {
+  text-align: center;
+  font-family: $heading-family;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  font-weight: 300;
+
+  > span {
+    font-weight: 600;
+  }
+}
