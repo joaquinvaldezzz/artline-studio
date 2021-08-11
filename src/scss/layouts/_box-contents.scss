@@ -1,0 +1,59 @@
+.box-contents-section {
+  margin-top: 6.125rem;
+}
+
+.box-contents-title {
+  text-align: center;
+  font-family: $heading-family;
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 2rem;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 12px rgba($white, 0.5);
+}
+
+.box-contents-grid {
+  margin-top: 8rem;
+  display: grid;
+  gap: 4rem;
+
+  @media (min-width: $sm) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.box-content-info {
+  position: relative;
+  text-align: center;
+}
+
+.content-glow {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  z-index: -5;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+.content-symbol {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content-title {
+  margin-top: 0.875rem;
+  font-family: $heading-family;
+  font-size: 2.125rem;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0.3625rem;
+  text-shadow: 0 0 12px rgba($white, 0.5);
+}
+
+.content-description {
+  margin-top: 1.75rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.0625em;
+}
