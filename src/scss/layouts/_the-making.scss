@@ -1,0 +1,26 @@
+.the-making-title {
+  text-align: center;
+  font-family: $heading-family;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.25rem;
+  letter-spacing: 0.05em;
+}
+
+.the-making-video {
+  position: relative;
+  margin-top: 1.5rem;
+  padding-bottom: calc(9 / 16 * 100%);
+
+  > * {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #F7B500;
+  }
+}

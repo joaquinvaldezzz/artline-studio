@@ -20,18 +20,4 @@ body {
 @import 'layouts/_header';
 @import 'layouts/_home';
 @import 'layouts/_special-offer';
-
-// .aspect-ratio {
-//   position: relative;
-//   padding-bottom: calc(9 / 16 * 100%);
-
-//   > * {
-//     position: absolute;
-//     top: 0;
-//     bottom: 0;
-//     left: 0;
-//     right: 0;
-//     height: 100%;
-//     width: 100%;
-//   }
-// }
+@import 'layouts/_the-making';
