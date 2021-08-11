@@ -1,0 +1,11 @@
+.sr-only {
+  position: absolute;
+  margin: -1px;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0, 0, 0, 0);
+  border-width: 0;
+}
