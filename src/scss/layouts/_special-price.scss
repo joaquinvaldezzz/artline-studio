@@ -5,11 +5,15 @@
 .introducing-title {
   text-align: center;
   font-family: $serif-family;
-  font-size: 3rem;
   font-weight: 600;
-  line-height: 2.5rem;
-  letter-spacing: 0.490625rem;
+  line-height: 1;
+  letter-spacing: 0.5rem;
   text-shadow: 0 0 12px rgba($white, 0.5);
+  font-size: 2.25rem;
+
+  @media (min-width: $md) {
+    font-size: 3rem;
+  }
 }
 
 .introducing-description {
@@ -88,12 +92,13 @@
 
 .symbols-container {
   margin-top: 6.25rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  place-items: center center;
+  gap: 4rem;
 
-  > * + * {
-    margin-left: 5rem;
+  @media (min-width: $md) {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 }
 
@@ -103,7 +108,7 @@
   font-family: $serif-family;
   font-size: 2.25rem;
   font-weight: 600;
-  line-height: 2.125rem;
+  line-height: 1;
   letter-spacing: 0.3125em;
   text-shadow: 0 0 12px rgba($white, 0.5);
 }

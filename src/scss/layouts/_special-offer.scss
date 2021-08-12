@@ -10,8 +10,16 @@
   display: grid;
   gap: 1rem;
 
-  @media (min-width: $md) {
+  @media (min-width: $lg) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.packshot {
+  @media (min-width: $md) {
+    margin-right: auto;
+    margin-left: auto;
+    width: percentage(math.div(10, 12));
   }
 }
 
@@ -85,6 +93,20 @@
 
 .special-offer-payments {
   margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $sm) {
+    flex-direction: row;
+    align-items: center;
+
+    > * + * {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.payment-options-logotypes {
   display: flex;
   align-items: center;
 
