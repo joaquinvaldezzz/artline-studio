@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny-ps" version="1.2" viewBox="0 0 329 88">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="#fff"
+  baseProfile="tiny-ps"
+  version="1.2"
+  viewBox="0 0 329 88"
+>
   <g>
     <path
       d="M320.62 8.81V.08h1.74l2.07 6.18c.19.57.33 1 .42 1.29.1-.32.25-.78.46-1.4l2.1-6.07h1.55v8.73h-1.11V1.5l-2.55 7.31h-1.04l-2.52-7.43v7.43h-1.12zM315.43 8.81v-7.7h-2.88V.08h6.93v1.03h-2.89v7.7h-1.16z"
