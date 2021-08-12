@@ -21,48 +21,61 @@
   margin-top: 1rem;
   margin-right: auto;
   margin-left: auto;
-  width: calc(100% - 0.5em * 2);
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.5em;
-
-  @media (min-width: $lg) {
-    line-height: 3.125rem;
-  }
+  letter-spacing: 0.5rem;
 }
 
 .novel-title {
   margin-top: 0.5rem;
   margin-right: auto;
   margin-left: auto;
-  width: calc(100% - 4.375rem * 2);
   text-align: center;
   font-family: $serif-family;
-  font-size: 4.125rem;
+  font-size: 2.5rem;
   font-weight: 600;
   text-transform: uppercase;
-  line-height: 5rem;
-  letter-spacing: 4.375rem;
+  line-height: 1.25;
+  letter-spacing: 1rem;
   text-shadow: 0 0 12px $white;
+  width: calc(100% - 1rem);
+
+  @media (min-width: $sm) {
+    width: calc(100% - 1.5rem);
+    font-size: 2.875rem;
+    letter-spacing: 1.5rem;
+  }
+
+  @media (min-width: $md) {
+    width: calc(100% - 1.875rem);
+    font-size: 3.5rem;
+    letter-spacing: 1.875rem;
+  }
+
+  @media (min-width: $lg) {
+    width: calc(100% - 4.375rem);
+    font-size: 4.125rem;
+    letter-spacing: 4.375rem;
+  }
 }
 
 .novel-description {
   margin-top: 1.75rem;
   text-align: center;
-  line-height: 1.25rem;
-  letter-spacing: 0.0625em;
+  line-height: 1.25;
+  letter-spacing: 0.0625rem;
 }
 
 .mistborn-box {
   margin-top: 5rem;
   margin-right: auto;
   margin-left: auto;
-  max-width: calc(10 / 12 * 100%);
+  max-width: percentage(math.div(10, 12));
 }
 
 .signature {
   position: relative;
-  margin-top: calc(4.375rem / 2);
+  margin-top: 2.1875rem;
 }
 
 .signature-image {
