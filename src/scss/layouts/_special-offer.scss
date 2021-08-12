@@ -48,3 +48,52 @@
     text-decoration: line-through;
   }
 }
+
+.special-offer {
+  margin-top: 2.5rem;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 0.125rem;
+}
+
+.special-offer-button {
+  margin-top: 2.25rem;
+  display: block;
+  border-radius: 9999px;
+  background-color: #f7b500;
+  padding: 1.125rem 3.75rem;
+  font-family: $serif-family;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.25;
+  letter-spacing: 0.05rem;
+  color: $black;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.special-offer-guarantee {
+  margin-top: 2.25rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+}
+
+.special-offer-payments {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+
+  > * + * {
+    margin-left: 1rem;
+  }
+
+  > img {
+    height: auto;
+    width: 4.5rem;
+  }
+}
