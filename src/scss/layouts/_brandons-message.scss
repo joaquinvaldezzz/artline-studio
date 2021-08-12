@@ -1,0 +1,22 @@
+.brandons-message-section {
+  margin-top: 7rem;
+}
+
+.brandons-message-title {
+  text-align: center;
+  font-family: $serif-family;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.375rem;
+  letter-spacing: 0.0625em;
+}
+
+.brandons-message-video {
+  @include aspect-ratio(16, 9);
+  margin-top: 1.5rem;
+
+  > * {
+    border: 1px solid #F7B500;
+  }
+}
