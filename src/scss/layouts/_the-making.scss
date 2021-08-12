@@ -1,6 +1,6 @@
 .the-making-title {
   text-align: center;
-  font-family: $heading-family;
+  font-family: $serif-family;
   font-size: 1.125rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -8,18 +8,10 @@
 }
 
 .the-making-video {
-  position: relative;
+  @include aspect-ratio(16, 9);
   margin-top: 1.5rem;
-  padding-bottom: calc(9 / 16 * 100%);
 
   > * {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
     border: 1px solid #f7b500;
   }
 }
