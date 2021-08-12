@@ -1,10 +1,11 @@
+@import 'abstracts/_mixins';
 @import 'abstracts/_variables';
 
 @import 'base/_base';
 @import 'base/_fonts';
 
 html {
-  font-family: $body-family, system-ui;
+  font-family: $sans-family, system-ui;
 }
 
 body {
@@ -22,3 +23,5 @@ body {
 @import 'layouts/_special-offer';
 @import 'layouts/_the-making';
 @import 'layouts/_box-contents';
+@import 'layouts/_brandons-message';
+@import 'layouts/_box-gallery';
