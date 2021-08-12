@@ -37,9 +37,9 @@
   margin-left: auto;
   width: calc(100% - 4.375rem * 2);
   text-align: center;
-  font-family: $heading-family;
-  font-weight: 600;
+  font-family: $serif-family;
   font-size: 4.125rem;
+  font-weight: 600;
   text-transform: uppercase;
   line-height: 5rem;
   letter-spacing: 4.375rem;
@@ -55,9 +55,9 @@
 
 .mistborn-box {
   margin-top: 5rem;
-  max-width: calc(10 / 12 * 100%);
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
+  max-width: calc(10 / 12 * 100%);
 }
 
 .signature {
@@ -77,11 +77,11 @@
 
 .signature-text {
   text-align: center;
-  font-family: $heading-family;
+  font-family: $serif-family;
   font-size: 1.25rem;
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.075em;
-  font-weight: 300;
 
   > span {
     font-weight: 600;

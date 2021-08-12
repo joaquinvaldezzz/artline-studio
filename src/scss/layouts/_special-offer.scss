@@ -4,7 +4,7 @@
 
 .introducing-title {
   text-align: center;
-  font-family: $heading-family;
+  font-family: $serif-family;
   font-size: 3rem;
   font-weight: 600;
   line-height: 2.5rem;
@@ -40,7 +40,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: $heading-family;
+  font-family: $serif-family;
 
   > * + * {
     margin-left: 1.5rem;
@@ -61,7 +61,7 @@
 
 .countdown-text {
   margin-top: 1.25rem;
-  font-family: $body-family;
+  font-family: $sans-family;
   font-size: 0.75rem;
   letter-spacing: 0.0625em;
 }
@@ -74,7 +74,7 @@
   border-radius: 9999px;
   background-color: #f7b500;
   padding: 1rem 3.75rem;
-  font-family: $heading-family;
+  font-family: $serif-family;
   font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -100,7 +100,7 @@
 .tour-title {
   margin-top: 3.5rem;
   text-align: center;
-  font-family: $heading-family;
+  font-family: $serif-family;
   font-size: 2.25rem;
   font-weight: 600;
   line-height: 2.125rem;

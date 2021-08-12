@@ -4,7 +4,7 @@
 
 .box-contents-title {
   text-align: center;
-  font-family: $heading-family;
+  font-family: $serif-family;
   font-size: 2.25rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -16,9 +16,10 @@
 .box-contents-grid {
   margin-top: 8rem;
   display: grid;
+  place-items: center center;
   gap: 4rem;
 
-  @media (min-width: $sm) {
+  @media (min-width: $md) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -44,7 +45,7 @@
 
 .content-title {
   margin-top: 0.875rem;
-  font-family: $heading-family;
+  font-family: $serif-family;
   font-size: 2.125rem;
   font-weight: 600;
   line-height: 2rem;
