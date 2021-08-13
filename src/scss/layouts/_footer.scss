@@ -1,0 +1,38 @@
+.footer {
+  padding-top: 12rem;
+  padding-bottom: 4.25rem;
+  overflow-y: hidden;
+
+  > .container {
+    position: relative;
+  }
+}
+
+.footer-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  z-index: -1;
+
+  @media (min-width: $md) {
+    width: percentage(math.div(6, 12));
+  }
+}
+
+.footer-logo {
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  width: 12.5rem;
+}
+
+.footer-copyright {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.075rem;
+}

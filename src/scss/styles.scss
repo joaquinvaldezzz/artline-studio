@@ -28,23 +28,4 @@ body {
 @import 'layouts/_brandons-message';
 @import 'layouts/_box-gallery';
 @import 'layouts/_special-offer';
-
-.footer {
-  padding-top: 12rem;
-  padding-bottom: 4.25rem;
-}
-
-.footer-logo {
-  margin-right: auto;
-  margin-left: auto;
-  height: auto;
-  width: 12.5rem;
-}
-
-.footer-copyright {
-  margin-top: 1.5rem;
-  text-align: center;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.075rem;
-}
+@import 'layouts/_footer';
