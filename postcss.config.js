@@ -12,6 +12,7 @@ module.exports = {
         const innerMatches = content.match(/[^<>"'`\s.()]*[^<>"'`\s.():]+/g) || [];
         return broadMatches.concat(innerMatches);
       },
+      blocklist: ['summary'],
     },
     'postcss-font-family-system-ui': {
       family: [...fontFamily.sans],
