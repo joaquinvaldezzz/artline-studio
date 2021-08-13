@@ -23,6 +23,7 @@
   margin-left: auto;
   text-align: center;
   text-transform: uppercase;
+  line-height: 1.5;
   letter-spacing: 0.5rem;
 }
 
@@ -30,6 +31,7 @@
   margin-top: 0.5rem;
   margin-right: auto;
   margin-left: auto;
+  width: calc(100% - 1rem);
   text-align: center;
   font-family: $serif-family;
   font-size: 2.5rem;
@@ -38,7 +40,6 @@
   line-height: 1.25;
   letter-spacing: 1rem;
   text-shadow: 0 0 12px $white;
-  width: calc(100% - 1rem);
 
   @media (min-width: $sm) {
     width: calc(100% - 1.5rem);
@@ -53,7 +54,7 @@
   }
 
   @media (min-width: $lg) {
-    width: calc(100% - 4.375rem);
+    width: calc(100% - 4.375rem * 2);
     font-size: 4.125rem;
     letter-spacing: 4.375rem;
   }
@@ -94,7 +95,8 @@
   font-size: 1.25rem;
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 0.075em;
+  letter-spacing: 0.075rem;
+  line-height: 1.25;
 
   > span {
     font-weight: 600;
