@@ -14,10 +14,6 @@ module.exports = {
       },
       blocklist: ['summary'],
     },
-    cssnano: {
-      preset: 'default',
-      preferredQuote: 'single',
-    },
     'postcss-font-family-system-ui': {
       family: [...fontFamily.sans],
       preserve: false,
