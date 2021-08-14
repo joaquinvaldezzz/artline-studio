@@ -2,13 +2,17 @@
 @import 'suitcss-base/lib/base';
 
 html {
-  font-family: system-ui;
+  font-family: $sans-family, system-ui;
   line-height: 1.5;
 }
 
 body {
+  background-color: $black;
   font-family: inherit;
   line-height: inherit;
+  color: $white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 *,
@@ -34,8 +38,8 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  opacity: 1;
   color: #9ca3af;
+  opacity: 1;
 }
 
 button,
@@ -58,8 +62,8 @@ h6 {
 }
 
 a {
-  text-decoration: inherit;
   color: inherit;
+  text-decoration: inherit;
 }
 
 button,

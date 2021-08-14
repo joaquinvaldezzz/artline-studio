@@ -1,31 +1,20 @@
 @use 'sass:math';
 
-@import 'abstracts/_mixins';
-@import 'abstracts/_variables';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
 
-@import 'base/_base';
-@import 'base/_fonts';
+@import 'base/base';
+@import 'base/fonts';
 
-html {
-  font-family: $sans-family, system-ui;
-}
+@import 'components/accessibility';
+@import 'components/container';
 
-body {
-  background-color: $black;
-  color: $white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-@import 'components/_accessibility';
-@import 'components/_container';
-
-@import 'layouts/_header';
-@import 'layouts/_home';
-@import 'layouts/_special-price';
-@import 'layouts/_the-making';
-@import 'layouts/_box-contents';
-@import 'layouts/_brandons-message';
-@import 'layouts/_box-gallery';
-@import 'layouts/_special-offer';
-@import 'layouts/_footer';
+@import 'layouts/header';
+@import 'layouts/home';
+@import 'layouts/special-price';
+@import 'layouts/the-making';
+@import 'layouts/box-contents';
+@import 'layouts/brandons-message';
+@import 'layouts/box-gallery';
+@import 'layouts/special-offer';
+@import 'layouts/footer';
