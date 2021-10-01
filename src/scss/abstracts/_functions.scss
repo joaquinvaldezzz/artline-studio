@@ -1,0 +1,17 @@
+@use 'sass:math';
+
+@function rem($pixel) {
+  @return math.div($pixel, 16) * 1rem;
+}
+
+@function em($pixel) {
+  @return math.div($pixel, 16) * 1em;
+}
+
+@function tint($color, $percentage) {
+  @return mix(#fff, $color, $percentage);
+}
+
+@function shade($color, $percentage) {
+  @return mix(#000, $color, $percentage);
+}
