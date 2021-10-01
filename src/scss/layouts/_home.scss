@@ -1,19 +1,23 @@
+@use 'sass:math';
+@use '../abstracts/functions';
+@use '../abstracts/variables';
+
 .home-section {
-  background-image: linear-gradient(transparent, $black 50%), url('/images/background.jpg');
+  background-image: linear-gradient(transparent, variables.$black 50%),
+    url('/images/background.jpg');
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
 
-  @media (min-width: $lg) {
+  @media (min-width: variables.$lg) {
     background-size: contain;
   }
 }
 
-.object {
-  margin-right: auto;
-  margin-left: auto;
+.mistborn-logo {
+  margin: 0 auto;
   height: auto;
-  width: 5.375rem;
+  width: functions.rem(86);
 }
 
 .novel-author {
@@ -22,48 +26,43 @@
   margin-left: auto;
   text-align: center;
   text-transform: uppercase;
-  line-height: 1.5;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.5em;
 }
 
 .novel-title {
   margin-top: 0.5rem;
   margin-right: auto;
   margin-left: auto;
-  width: calc(100% - 1rem);
   text-align: center;
-  font-family: $serif-family;
+  font-family: variables.$serif-family;
   font-size: 2.5rem;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 1.25;
-  letter-spacing: 1rem;
-  text-shadow: 0 0 12px $white;
+  letter-spacing: 0.25em;
+  text-shadow: 0 0 12px variables.$white;
 
-  @media (min-width: $sm) {
-    width: calc(100% - 1.5rem);
+  @media (min-width: variables.$sm) {
     font-size: 2.875rem;
-    letter-spacing: 1.5rem;
+    letter-spacing: 0.5em;
   }
 
-  @media (min-width: $md) {
-    width: calc(100% - 1.875rem);
+  @media (min-width: variables.$md) {
     font-size: 3.5rem;
-    letter-spacing: 1.875rem;
+    letter-spacing: 0.875em;
   }
 
-  @media (min-width: $lg) {
-    width: calc(100% - 4.375rem * 2);
+  @media (min-width: variables.$lg) {
     font-size: 4.125rem;
-    letter-spacing: 4.375rem;
+    letter-spacing: 1em;
   }
 }
 
 .novel-description {
-  margin-top: 1.75rem;
+  margin-top: functions.rem(28);
   text-align: center;
   line-height: 1.25;
-  letter-spacing: 0.0625rem;
+  letter-spacing: functions.em(1);
 }
 
 .mistborn-box {
@@ -90,12 +89,12 @@
 
 .signature-text {
   text-align: center;
-  font-family: $serif-family;
+  font-family: variables.$serif-family;
   font-size: 1.25rem;
   font-weight: 300;
   text-transform: uppercase;
   line-height: 1.25;
-  letter-spacing: 0.075rem;
+  letter-spacing: 0.075em;
 
   > span {
     font-weight: 600;
