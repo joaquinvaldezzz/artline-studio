@@ -1,6 +1,7 @@
 # Artline Studio using Vanilla HTML, CSS, and JavaScript
 
-The demo landing page for Artline Studio using [Vite](https://vitejs.dev) and [PostCSS](https://github.com/postcss/postcss).
+The demo landing page for Artline Studio using [Vite](https://vitejs.dev) and&nbsp;
+[PostCSS](https://github.com/postcss/postcss).
 
 ## Run Locally
 
